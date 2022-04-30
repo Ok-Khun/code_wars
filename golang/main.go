@@ -1,12 +1,12 @@
 package main
 
 import (
-	// eightKyu "codewars/8kyu"
-	sevenKyu "codewars/7kyu"
+	eightKyu "codewars/8kyu"
+	// sevenKyu "codewars/7kyu"
 	"fmt"
 )
 
 func main() {
-	result := sevenKyu.Movie(500, 15, 0.9)
-	fmt.Println(result)
+	result := eightKyu.GetGrade(95, 90, 93)
+	fmt.Println(result, string(result))
 }
